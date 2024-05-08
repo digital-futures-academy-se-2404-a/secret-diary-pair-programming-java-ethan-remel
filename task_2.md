@@ -121,4 +121,4 @@ public class Main {
 
 In this code, an `ArrayList` of strings is created. A `Scanner` is then used to read each line from a file named `input.txt` and add it to the `ArrayList`. If a `FileNotFoundException` is caught, the stack trace is printed to the console. Finally, the contents of the `ArrayList` are printed to the console to verify that the data was read correctly.
 
-Back to [Part 1](README.md)
+Back to [Part 1](../secret-diary-pair-programming-java-ethan-remel/README.md)

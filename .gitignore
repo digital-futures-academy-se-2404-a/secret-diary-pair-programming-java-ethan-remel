@@ -7,7 +7,7 @@ bin/
 out/
 
 # IDE-specific files
-.idea/
+../secret-diary-pair-programming-java-ethan-remel/.idea/
 *.iml
 *.ipr
 *.iws
