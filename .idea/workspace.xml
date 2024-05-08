@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24c7d40d-42ce-4b4b-bde8-d1c6fda67a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/secretdiary/app/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/secretdiary/test/TestSecretDiary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/Diary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy/app.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TestSecretDiary$DiaryEntryTests.canAddMoreThan1EntryToDiary.executor": "Run",
+    "JUnit.TestSecretDiary$DiaryEntryTests.errorThrownWhenInvalidArgumentPassedToAddEntry.executor": "Run",
+    "JUnit.TestSecretDiary$DiaryEntryTests.executor": "Run",
+    "JUnit.TestSecretDiary$DiaryReadingTests.canReadAllEntriesFromDiary.executor": "Run",
+    "JUnit.TestSecretDiary$DiaryReadingTests.canReadSpecificEntryFromDiary.executor": "Run",
+    "JUnit.TestSecretDiary.executor": "Run",
     "Maven.secret-diary-pair-programming-java-ethan-remel2 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -49,9 +57,100 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/digitalfuturesacademy" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../secret-diary-pair-programming-java-ethan-remel2" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSecretDiary$DiaryReadingTests.canReadAllEntriesFromDiary">
+    <configuration name="TestSecretDiary$DiaryEntryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-diary-pair-programming-java-ethan-remel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secretdiary.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secretdiary.test.TestSecretDiary" />
+      <option name="MAIN_CLASS_NAME" value="com.secretdiary.test.TestSecretDiary$DiaryEntryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecretDiary$DiaryEntryTests.canAddMoreThan1EntryToDiary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-diary-pair-programming-java-ethan-remel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secretdiary.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secretdiary.test.TestSecretDiary" />
+      <option name="MAIN_CLASS_NAME" value="com.secretdiary.test.TestSecretDiary$DiaryEntryTests" />
+      <option name="METHOD_NAME" value="canAddMoreThan1EntryToDiary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecretDiary$DiaryEntryTests.errorThrownWhenInvalidArgumentPassedToAddEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-diary-pair-programming-java-ethan-remel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secretdiary.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secretdiary.test.TestSecretDiary" />
+      <option name="MAIN_CLASS_NAME" value="com.secretdiary.test.TestSecretDiary$DiaryEntryTests" />
+      <option name="METHOD_NAME" value="errorThrownWhenInvalidArgumentPassedToAddEntry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecretDiary$DiaryReadingTests.canReadAllEntriesFromDiary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-diary-pair-programming-java-ethan-remel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secretdiary.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secretdiary.test.TestSecretDiary" />
+      <option name="MAIN_CLASS_NAME" value="com.secretdiary.test.TestSecretDiary$DiaryReadingTests" />
+      <option name="METHOD_NAME" value="canReadAllEntriesFromDiary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSecretDiary$DiaryReadingTests.canReadSpecificEntryFromDiary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="secret-diary-pair-programming-java-ethan-remel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secretdiary.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secretdiary.test.TestSecretDiary" />
+      <option name="MAIN_CLASS_NAME" value="com.secretdiary.test.TestSecretDiary$DiaryReadingTests" />
+      <option name="METHOD_NAME" value="canReadSpecificEntryFromDiary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSecretDiary$DiaryReadingTests.canReadAllEntriesFromDiary" />
+        <item itemvalue="JUnit.TestSecretDiary$DiaryReadingTests.canReadSpecificEntryFromDiary" />
+        <item itemvalue="JUnit.TestSecretDiary$DiaryEntryTests.errorThrownWhenInvalidArgumentPassedToAddEntry" />
+        <item itemvalue="JUnit.TestSecretDiary$DiaryEntryTests.canAddMoreThan1EntryToDiary" />
+        <item itemvalue="JUnit.TestSecretDiary$DiaryEntryTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
